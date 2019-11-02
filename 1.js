@@ -34,5 +34,5 @@ function myBiodata(nama,umur){
         interestincoding: true, //Boolean
       }
 }
-let biodata = myBiodata('Ageng', 23);
+let biodata = myBiodata('Ageng Setyo Nugroho', 23);
 console.log(JSON.stringify(biodata));
