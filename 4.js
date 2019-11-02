@@ -44,15 +44,16 @@ if (typeof verb === 'object' && verb.length > 1)
         return result
     }
     else {
-        return 'Kata Tidak Ditemukan';
+        return 'Kata Tidak Ditemukan!';
     }
 }
 else {
     return 'Bukan Array';
 }
-    
 }
 
 let input = ["cat", "listen", "code", "act", "silent", "tac"];
+//let input = ["try", "fire", "dark"];
 let result = findSame(input);
-console.log(result);
+console.log("Input : ", input)
+console.log("Output : ", result);

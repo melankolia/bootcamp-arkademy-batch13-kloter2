@@ -15,14 +15,18 @@ function randomize(num){
                 continue;
             }
         }
-
         return [arr, sum]
         // console.log('Array : ', arr)
         // console.log('Sum : ', sum)
-
+    }
+    else {
+        console.log("Bukan Number")
     }
 }
 
-let arrSum = randomize(2);
-console.log('Array: ', arrSum[0]);
-console.log('Sum: ', arrSum[1]);
+let arrSum = randomize(6);
+
+if (!(arrSum === undefined)){
+    console.log('Array: ', arrSum[0]);
+    console.log('Sum: ', arrSum[1]);
+}
